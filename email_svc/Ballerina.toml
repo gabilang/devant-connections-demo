@@ -2,4 +2,5 @@
 org = "kajendran"
 name = "email_svc"
 version = "0.2.0"
+title = "email_svc"
 
