@@ -2,5 +2,4 @@
 org = "kajendran"
 name = "email_svc"
 version = "0.1.0"
-title = "email-svc"
 
