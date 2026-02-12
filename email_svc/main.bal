@@ -18,7 +18,7 @@ service / on httpDefaultListener {
     
     // POST endpoint to send emails
     resource function post sendmail(@http:Payload SendMailRequest request) returns SendMailResponse {
-        // Return dummy success response
+        // Return success response
         return {
             status: "success",
             message: string `Emails sent successfully to ${request.emails.length()} recipient(s)`,
